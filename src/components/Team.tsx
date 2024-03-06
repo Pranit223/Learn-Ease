@@ -29,7 +29,7 @@ const ProfileCard = ({ name, role, imgSrc }:props) => {
 
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main-team">
       <ProfileCard name="Praniti" role="Backend Developer" imgSrc={pranit} />
       <ProfileCard name="Mutthi Bhai" role="Team Leader" imgSrc="bg2.jpg" />
       <ProfileCard name="Pratyushi" role="Full Stack Developer" imgSrc="bg3.jpg" />
